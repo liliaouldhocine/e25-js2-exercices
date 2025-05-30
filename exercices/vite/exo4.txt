@@ -1,0 +1,11 @@
+4. Utilisation de plugins (ESLint)
+Objectif : Intégrer ESLint pour vérifier le code.
+Exercice :
+
+Installez vite-plugin-eslint.
+
+Configurez-le dans vite.config.js.
+
+Créez un fichier .eslintrc.json avec des règles de base.
+
+Vérifiez que les erreurs s’affichent dans la console Vite.

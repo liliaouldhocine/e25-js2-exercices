@@ -1,0 +1,6 @@
+Explication :
+
+Code 1 : La fonction callback a son propre this (ici, window ou undefined).
+
+Code 2 : La arrow function n'a pas de this propre, elle utilise celui du contexte parent (timer2).
+

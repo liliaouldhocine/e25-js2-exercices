@@ -1,0 +1,7 @@
+4. Modules dynamiques (import())
+Objectif : Charger un module uniquement quand nécessaire.
+Exercice :
+
+Créez un module heavy-module.js avec une fonction coûteuse en calcul.
+
+Chargez-le dynamiquement au clic sur un bouton.

@@ -1,0 +1,11 @@
+1. Création et importation basique
+Objectif : Exporter et importer des fonctions/variables entre fichiers.
+Exercice :
+
+Créez un fichier math.js qui exporte :
+
+Une fonction add(a, b) (export nommé)
+
+Une constante PI = 3.14 (export par défaut)
+
+Importez ces éléments dans main.js et utilisez-les.

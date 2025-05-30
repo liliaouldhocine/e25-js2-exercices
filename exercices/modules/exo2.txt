@@ -1,0 +1,13 @@
+2. Exportations groupées
+Objectif : Utiliser des exports nommés groupés.
+Exercice :
+
+Dans utils.js, exportez trois fonctions :
+
+capitalize(str)
+
+trim(str)
+
+slugify(str)
+
+Importez-les en une seule ligne dans main.js.

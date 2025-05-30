@@ -1,0 +1,3 @@
+- En mode non-strict : this pointe vers window (ou global).
+
+- En mode strict : this vaut undefined.

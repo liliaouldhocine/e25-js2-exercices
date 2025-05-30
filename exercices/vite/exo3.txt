@@ -1,0 +1,11 @@
+3. Gestion des assets (CSS, images)
+Objectif : Importer des fichiers CSS et images.
+Exercice :
+
+Ajoutez une image dans public/logo.png.
+
+Affichez-la dans index.html via une balise <img>.
+
+Créez un fichier styles.css et importez-le dans main.js.
+
+Ajoutez une règle CSS pour styliser le bouton.

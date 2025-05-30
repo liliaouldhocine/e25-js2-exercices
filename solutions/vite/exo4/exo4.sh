@@ -1,0 +1,1 @@
+npm install vite-plugin-eslint eslint --save-dev

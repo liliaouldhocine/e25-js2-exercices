@@ -1,0 +1,9 @@
+5. Variables d’environnement (.env)
+Objectif : Utiliser des variables d’environnement.
+Exercice :
+
+Créez un fichier .env avec une variable VITE_API_URL.
+
+Affichez-la dans la console via import.meta.env.
+
+Ajoutez une condition pour ne l’afficher qu’en mode développement.

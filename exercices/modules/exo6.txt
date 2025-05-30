@@ -1,0 +1,7 @@
+6. Gestion des erreurs avec les modules dynamiques
+Objectif : Capturer les erreurs de chargement.
+Exercice :
+
+Essayez d'importer dynamiquement un module inexistant ('./missing-module.js').
+
+Affichez un message d'erreur si le chargement échoue.

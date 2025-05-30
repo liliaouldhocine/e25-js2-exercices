@@ -1,0 +1,13 @@
+5. Réexportation (barrel file)
+Objectif : Créer un point d'entrée unique pour plusieurs modules.
+Exercice :
+
+Dans un dossier lib/, créez :
+
+math.js (exporte add, multiply)
+
+string.js (exporte capitalize, reverse)
+
+Créez un fichier index.js qui réexporte tout.
+
+Importez depuis index.js dans main.js.

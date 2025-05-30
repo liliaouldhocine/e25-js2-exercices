@@ -1,0 +1,11 @@
+1. Installation et premier projet Vite (Vanilla JS)
+Objectif : Créer un projet Vite basique en JavaScript pur.
+Exercice :
+
+Lancez la commande pour créer un projet Vite avec le template vanilla.
+
+Explorez la structure du projet (index.html, main.js, style.css).
+
+Modifiez main.js pour afficher "Bonjour, Vite !" dans le <body>.
+
+Ajoutez un bouton qui change le texte au clic.

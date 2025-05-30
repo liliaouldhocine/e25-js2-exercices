@@ -1,0 +1,5 @@
+// Explication :
+
+// La fonction traditionnelle a son propre this (lié à l'objet person).
+
+// La fonction fléchée n'a pas de this propre : elle utilise le this du contexte parent (ici, probablement window ou undefined en mode strict).

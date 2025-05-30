@@ -1,0 +1,2 @@
+this pointe vers l'objet utilisateur.
+Sortie : "Bonjour, je suis Alice".

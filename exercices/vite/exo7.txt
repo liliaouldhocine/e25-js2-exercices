@@ -1,0 +1,7 @@
+7. Bonus : JSON et fetch()
+Objectif : Charger des données externes.
+Exercice :
+
+Créez un fichier data.json dans public/.
+
+Utilisez fetch() pour récupérer les données et les afficher dans le DOM.

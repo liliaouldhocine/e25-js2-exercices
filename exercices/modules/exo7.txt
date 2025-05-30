@@ -1,0 +1,10 @@
+7. Exercice pratique : Application modulaire
+Objectif : Structurer une mini-application en modules.
+Exercice :
+Créez une app qui :
+
+Utilise un module dom.js pour manipuler le DOM.
+
+Un module api.js pour simuler des appels API.
+
+Un module main.js comme point d'entrée.

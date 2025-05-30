@@ -1,0 +1,5 @@
+Réponse :
+
+Avec new, this pointe vers l'instance créée (alice).
+Sortie : "Je m'appelle Alice".
+

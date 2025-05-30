@@ -1,0 +1,9 @@
+6. Déploiement du projet
+Objectif : Builder et déployer l’application.
+Exercice :
+
+Lancez npm run build et explorez le dossier dist/.
+
+Servez le build en local avec npm run preview.
+
+Déployez sur Netlify (drag-and-drop du dossier dist).

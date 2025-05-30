@@ -1,0 +1,11 @@
+2. Configuration de base (vite.config.js)
+Objectif : Personnaliser le port et les alias.
+Exercice :
+
+Créez un fichier vite.config.js.
+
+Changez le port par défaut (3000 → 8080).
+
+Ajoutez un alias @ pour le dossier src/.
+
+Créez un fichier src/utils.js avec une fonction sayHello() et importez-la dans main.js via @/utils.

@@ -1,0 +1,4 @@
+- En mode non-strict : this pointe vers l'objet global (window dans un navigateur, global dans Node.js).
+
+- En mode strict : this vaut undefined.
+

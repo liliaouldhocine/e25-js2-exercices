@@ -1,0 +1,7 @@
+3. Renommage des imports
+Objectif : Gérer les conflits de noms.
+Exercice :
+
+Exportez une fonction log(message) depuis logger.js.
+
+Dans main.js, importez-la sous le nom logger.
