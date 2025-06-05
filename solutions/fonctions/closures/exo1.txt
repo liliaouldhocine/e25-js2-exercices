@@ -1,0 +1,3 @@
+Réponse :
+La fonction fonctionInterne forme une closure et capture variableExterne.
+Sortie : "Je suis à l'extérieur !".
