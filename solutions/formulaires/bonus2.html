@@ -1,0 +1,21 @@
+<input type="password" id="password" placeholder="Mot de passe" />
+<div>
+  <span id="numberCheck">Contient un chiffre</span> |
+  <span id="upperCheck">Contient une majuscule</span>
+</div>
+
+<script>
+  const passwordInput = document.getElementById("password");
+  passwordInput.addEventListener("input", () => {
+    const password = passwordInput.value;
+    const hasNumber = /\d/.test(password);
+    const hasUpper = /[A-Z]/.test(password);
+
+    document.getElementById("numberCheck").style.color = hasNumber
+      ? "green"
+      : "red";
+    document.getElementById("upperCheck").style.color = hasUpper
+      ? "green"
+      : "red";
+  });
+</script>
