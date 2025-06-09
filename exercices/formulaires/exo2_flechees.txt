@@ -1,0 +1,3 @@
+🔸 Niveau Intermédiaire
+Exercice 2 : Validation Dynamique avec Debounce
+Objectif : Vérifier un champ email en temps réel (après 1s sans frappe).

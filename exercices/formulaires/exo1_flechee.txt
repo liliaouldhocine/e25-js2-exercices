@@ -1,0 +1,3 @@
+🔹 Niveau Débutant
+Exercice 1 : Validation Basique avec Fonction Fléchée
+Objectif : Valider un champ "prénom" avec une fonction fléchée.

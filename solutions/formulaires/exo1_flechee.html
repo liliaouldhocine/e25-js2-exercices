@@ -1,0 +1,21 @@
+<form id="basicForm">
+  <input type="text" id="firstName" placeholder="Prénom (min 3 lettres)" />
+  <button type="submit">Valider</button>
+  <p id="errorMsg" style="color: red"></p>
+</form>
+
+<script>
+  const form = document.getElementById("basicForm");
+  const firstName = document.getElementById("firstName");
+  const errorMsg = document.getElementById("errorMsg");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault(); // Bloque l'envoi
+    if (firstName.value.length < 3) {
+      errorMsg.textContent = "❌ Le prénom doit faire 3 caractères minimum.";
+    } else {
+      errorMsg.textContent = "✅ Valide !";
+      console.log("Prénom soumis :", firstName.value);
+    }
+  });
+</script>

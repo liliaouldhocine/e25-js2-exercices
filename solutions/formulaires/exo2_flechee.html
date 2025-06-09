@@ -1,0 +1,23 @@
+<input type="email" id="email" placeholder="Email" />
+<p id="emailFeedback"></p>
+
+<script>
+  const emailInput = document.getElementById("email");
+  const emailFeedback = document.getElementById("emailFeedback");
+
+  // Fonction fléchée pour vérifier l'email
+  const checkEmail = (email) => {
+    const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    emailFeedback.textContent = isValid
+      ? "✅ Email valide"
+      : "❌ Format invalide";
+    emailFeedback.style.color = isValid ? "green" : "red";
+  };
+
+  // Debounce pour éviter des vérifications trop fréquentes
+  let timeout;
+  emailInput.addEventListener("input", () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => checkEmail(emailInput.value), 1000);
+  });
+</script>

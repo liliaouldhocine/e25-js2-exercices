@@ -1,0 +1,8 @@
+Niveau Avancé
+Objectif : Validation en temps réel, gestion d'erreurs dynamiques et requêtes asynchrones.
+
+Exercice 3 : Vérification d'Email Unique
+
+- Créez un champ email avec validation en temps réel (dès que l'utilisateur tape).
+- Faites une requête asynchrone (simulée) pour vérifier si l'email existe déjà.
+- Affichez un message "Email disponible" (en vert) ou "Email déjà utilisé" (en rouge).

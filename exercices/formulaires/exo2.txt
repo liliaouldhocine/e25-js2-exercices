@@ -1,0 +1,16 @@
+Niveau Intermédiaire
+Objectif : Gérer plusieurs champs avec des validations avancées.
+
+Exercice 2 : Formulaire d'Inscription
+Créez un formulaire avec :
+
+- Nom (obligatoire, 2 caractères min).
+- Email (doit être valide, vérification basique avec @ et .).
+- Mot de passe (8 caractères min, doit contenir un chiffre).
+- Confirmation du mot de passe (doit correspondre).
+
+Tâche :
+
+- Validez chaque champ à la soumission.
+- Affichez des messages d'erreur précis sous chaque champ.
+- Si tout est valide, affichez les données dans la console.

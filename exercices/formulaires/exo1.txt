@@ -1,0 +1,15 @@
+Niveau Débutant
+Objectif : Comprendre les bases de la validation et la récupération des données.
+
+Exercice 1 : Validation Simple d'un Champ Texte
+Créez un formulaire avec :
+
+- Un champ input pour le nom (obligatoire, minimum 2 caractères).
+- Un bouton de soumission.
+
+Tâche :
+
+- Empêchez l'envoi du formulaire si le champ est vide ou trop court.
+- Affichez un message d'erreur en rouge sous le champ si la validation échoue.
+
+

@@ -1,0 +1,2 @@
+🚀 Exercice Bonus : Validation avec Fetch (API Simulée)
+Objectif : Vérifier si un nom d'utilisateur est disponible via une fausse API.

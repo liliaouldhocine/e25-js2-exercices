@@ -1,0 +1,36 @@
+<div id="step1">
+  <h3>Étape 1 : Identité</h3>
+  <input type="text" id="fullName" placeholder="Nom complet" />
+  <button id="nextBtn">Suivant</button>
+</div>
+
+<div id="step2" style="display: none">
+  <h3>Étape 2 : Contact</h3>
+  <input type="email" id="userEmail" placeholder="Email" />
+  <button id="submitBtn">Soumettre</button>
+</div>
+
+<script>
+  const nextBtn = document.getElementById("nextBtn");
+  const submitBtn = document.getElementById("submitBtn");
+  const step1 = document.getElementById("step1");
+  const step2 = document.getElementById("step2");
+
+  // Passage à l'étape 2 si le nom est valide
+  nextBtn.addEventListener("click", () => {
+    const fullName = document.getElementById("fullName").value;
+    if (fullName.length >= 2) {
+      step1.style.display = "none";
+      step2.style.display = "block";
+    } else {
+      alert("⚠️ Le nom doit faire au moins 2 caractères.");
+    }
+  });
+
+  // Validation finale
+  submitBtn.addEventListener("click", () => {
+    const userEmail = document.getElementById("userEmail").value;
+    const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(userEmail);
+    alert(isValidEmail ? "✅ Formulaire validé !" : "❌ Email invalide");
+  });
+</script>
