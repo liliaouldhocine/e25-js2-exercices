@@ -1,0 +1,8 @@
+Exercice 1: Création de Classe de Base
+
+Créez une classe Animal avec:
+
+    - Propriétés: nom, espece, age
+    - Méthodes:
+        - decrire() - retourne une string de description
+        - vieillir() (fonction fléchée) - incrémente l'âge de 1

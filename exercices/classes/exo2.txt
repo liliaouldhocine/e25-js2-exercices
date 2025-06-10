@@ -1,0 +1,8 @@
+Exercice 2: Héritage
+
+Créez une classe Chien qui hérite de Animal et ajoute:
+
+    - Propriété: race
+    - Méthode:
+        - aboyer() (fonction fléchée) - log "Woof!"
+        - Surchargez decrire() pour inclure la race

@@ -1,0 +1,7 @@
+Exercice 6: Système de Bibliothèque
+
+Créez un système de gestion de bibliothèque avec:
+
+    - Classe Livre (titre, auteur, ISBN, estEmprunté)
+    - Classe Membre (nom, email, livresEmpruntés)
+    - Classe Bibliotheque (livres, membres, méthodes pour ajouter/emprunter/retourner)

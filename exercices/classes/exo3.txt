@@ -1,0 +1,5 @@
+Exercice 3: Méthodes Statiques
+
+Ajoutez à la classe Calculatrice:
+    - Méthodes statiques pour soustraction, multiplication et division
+    - Une méthode statique qui prend un tableau de nombres et retourne la somme

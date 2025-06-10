@@ -1,0 +1,10 @@
+Exercice 4: Getters/Setters
+
+Créez une classe CompteBancaire avec:
+
+    - Propriétés privées: #solde
+    - Constructeur prenant un soldeInitial
+    - Getter solde
+    - Méthodes:
+        - deposer(montant)
+        - retirer(montant) (ne doit pas permettre un solde négatif)

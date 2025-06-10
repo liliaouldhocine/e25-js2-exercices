@@ -1,0 +1,2 @@
+Exercice 5: Composition vs Héritage
+Créez un système où une classe Voiture a une propriété moteur qui est une instance d'une classe Moteur, plutôt que d'hériter de Moteur.
