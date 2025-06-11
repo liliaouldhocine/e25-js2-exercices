@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Examen JavaScript</title>
+    <style>
+      #charCount {
+        color: gray;
+        font-size: 0.8em;
+      }
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="nameForm">
+      <input type="text" id="nameInput" placeholder="Votre nom" required />
+      <span id="charCount">0/50</span>
+      <button type="submit">Soumettre</button>
+      <button type="button" id="resetBtn">Réinitialiser</button>
+    </form>
+    <div id="output"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
