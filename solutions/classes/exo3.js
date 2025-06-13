@@ -7,3 +7,5 @@ class Calculatrice {
 
   static sommeTableau = (nombres) => nombres.reduce((acc, val) => acc + val, 0);
 }
+
+// console.log(Calculatrice.sommeTableau([1, 2, 3, 4]));
