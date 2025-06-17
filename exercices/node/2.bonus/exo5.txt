@@ -1,0 +1,9 @@
+Exercice 5 : Pipeline avec Gestion d'Erreurs
+
+Énoncé :
+Créez un pipeline qui :
+
+1) Lit un fichier (input.txt).
+2) Convertit son contenu en majuscules.
+3) Écrit le résultat dans output.txt.
+4) Gère toutes les erreurs avec un seul on('error').

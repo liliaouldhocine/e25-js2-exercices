@@ -1,0 +1,8 @@
+Exercice 2 : Créer un EventEmitter Personnalisé
+
+Énoncé :
+
+Créez une classe Compteur qui :
+
+1) Émet un événement increment à chaque appel de inc().
+2) Émet un événement reset quand le compteur est réinitialisé.

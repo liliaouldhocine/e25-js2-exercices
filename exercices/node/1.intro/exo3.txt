@@ -1,0 +1,11 @@
+Exercice 3 : Mini Routeur HTTP
+
+Énoncé :
+
+Implémentez un serveur avec 3 routes :
+
+1) / → Renvoie "Accueil"
+
+2) /hello → Renvoie "Bonjour le monde"
+
+3) /goodbye → Renvoie "Au revoir"

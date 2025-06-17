@@ -1,0 +1,5 @@
+Exercice 4 : Analyse d'Arguments CLI
+
+Énoncé :
+
+- Créez un script qui accepte un argument --name et affiche "Bonjour, [nom] !".

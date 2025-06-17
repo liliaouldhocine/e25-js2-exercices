@@ -1,0 +1,8 @@
+Exercice 1 : Gestion d'Erreurs dans fs.readFile
+
+Énoncé :
+
+Lisez un fichier config.json et gérez :
+
+1) Fichier inexistant → Log personnalisé.
+2) JSON invalide → Renvoyer { error: "Invalid JSON" }.

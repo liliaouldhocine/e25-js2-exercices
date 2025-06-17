@@ -1,0 +1,5 @@
+Exercice 5 : Convertisseur Markdown -> HTML (Basique)
+
+Énoncé :
+
+- Lisez un fichier Markdown (input.md) et convertissez les ## Titres en balises <h2>.

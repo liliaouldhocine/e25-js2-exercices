@@ -1,0 +1,10 @@
+Exercice 3 : Gestion d'Erreurs dans un Serveur HTTP
+
+Énoncé :
+
+Créez un serveur qui :
+
+1) Renvoie le contenu de public/[fichier] pour les requêtes GET.
+2) Gère les erreurs :
+    - Fichier inexistant → 404
+    - Accès refusé → 403

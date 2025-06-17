@@ -1,0 +1,8 @@
+Exercice 4 : Timeout avec EventEmitter
+
+Énoncé :
+
+1) Créez une fonction timeout(ms) qui :
+
+    - Émet un événement done après ms millisecondes.
+    - Émet un événement error si ms n'est pas un nombre.

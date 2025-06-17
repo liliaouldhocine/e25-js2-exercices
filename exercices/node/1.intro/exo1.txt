@@ -1,0 +1,5 @@
+Exercice 1 : Serveur d'Heure
+
+Énoncé :
+
+- Créez un serveur HTTP qui renvoie l'heure actuelle au format HH:MM:SS pour toute requête GET.

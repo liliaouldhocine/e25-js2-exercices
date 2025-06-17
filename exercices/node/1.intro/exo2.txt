@@ -1,0 +1,5 @@
+Exercice 2 : Compteur de Mots dans un Fichier
+
+Énoncé :
+
+- Lisez le fichier texte.txt et comptez le nombre de mots (séparés par des espaces).

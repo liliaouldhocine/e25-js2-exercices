@@ -1,0 +1,7 @@
+Exercice 6 : Proxy HTTP Simplifié
+
+Énoncé :
+
+- Créez un serveur qui redirige les requêtes vers une API externe (ex: JSONPlaceholder).
+
+** jsonplaceholder.typicode.com
