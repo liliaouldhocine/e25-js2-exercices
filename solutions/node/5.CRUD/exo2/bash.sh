@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"title":"AB","director":"X","year":1800}' http://localhost:3000/api/movies

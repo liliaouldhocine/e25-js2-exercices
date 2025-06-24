@@ -1,0 +1,15 @@
+{
+  "error": "Données invalides",
+  "details": [
+    {
+      "code": "too_small",
+      "path": ["title"],
+      "message": "Le titre doit faire 3 caractères minimum"
+    },
+    {
+      "code": "too_small",
+      "path": ["year"],
+      "message": "Number must be greater than or equal to 1900"
+    }
+  ]
+}
