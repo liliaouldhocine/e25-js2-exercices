@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"title":"NodeJS"}' http://localhost:3000/api/books
