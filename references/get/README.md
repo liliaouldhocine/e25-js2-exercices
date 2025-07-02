@@ -1,8 +1,8 @@
-### **GET Basics**
+# **GET Basics**
 
 **Objectif** : Récupérer des données d'une API Node.js simple.
 
-#### **Backend (Node.js)**
+## **Backend (Node.js)**
 
 ```javascript
 // server.js
@@ -16,7 +16,7 @@ app.get("/api/hello", (req, res) => {
 app.listen(3000, () => console.log("Server running on http://localhost:3000"));
 ```
 
-#### **Frontend (Vite + VanillaJS)**
+### **Frontend (Vite + VanillaJS)**
 
 ```javascript
 // main.js

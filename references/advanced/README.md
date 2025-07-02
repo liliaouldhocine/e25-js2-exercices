@@ -1,8 +1,8 @@
-### **Advanced (Headers + Auth)**
+# **Advanced (Headers + Auth)**
 
 **Objectif** : Envoyer un token d'authentification.
 
-#### **Backend**
+## **Backend**
 
 ```javascript
 app.get("/api/protected", (req, res) => {
@@ -12,7 +12,7 @@ app.get("/api/protected", (req, res) => {
 });
 ```
 
-#### **Frontend**
+### **Frontend**
 
 ```javascript
 async function fetchProtected() {

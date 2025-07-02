@@ -1,4 +1,4 @@
-#### **Exemple**
+# **Exemple**
 
 1. Affichage d'une liste (GET)
 2. Ajout d'un élément (POST)

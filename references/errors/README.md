@@ -1,8 +1,8 @@
-### **Error Handling**
+# **Error Handling**
 
 **Objectif** : Gérer les erreurs 404 et les échecs réseau.
 
-#### **Frontend**
+## **Frontend**
 
 ```javascript
 async function fetchNonExistent() {

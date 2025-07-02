@@ -1,8 +1,8 @@
-### **POST Data**
+# **POST Data**
 
 **Objectif** : Envoyer des données au backend.
 
-#### **Backend**
+## **Backend**
 
 ```javascript
 // server.js
@@ -15,7 +15,7 @@ app.post("/api/users", (req, res) => {
 });
 ```
 
-#### **Frontend**
+### **Frontend**
 
 ```javascript
 // main.js

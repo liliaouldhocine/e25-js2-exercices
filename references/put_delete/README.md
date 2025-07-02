@@ -1,8 +1,8 @@
-### **Update (PUT) & Delete (DELETE)**
+# **Update (PUT) & Delete (DELETE)**
 
 **Objectif** : Pratiquer les méthodes PUT et DELETE.
 
-#### **Backend**
+## **Backend**
 
 ```javascript
 let items = [{ id: 1, name: "Item 1" }];
@@ -21,7 +21,7 @@ app.delete("/api/items/:id", (req, res) => {
 });
 ```
 
-#### **Frontend**
+### **Frontend**
 
 ```javascript
 // Update
